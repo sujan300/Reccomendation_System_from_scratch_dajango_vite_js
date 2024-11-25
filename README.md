@@ -18,4 +18,17 @@ This project implements a collaborative filtering recommendation system using Dj
 Clone the repository to your local machine:
 ```bash
 git clone https://github.com/sujan300/Reccomendation_System_from_scratch_dajango_vite_js.git
-cd Reccomendation_System_from_scratch_dajango_vite_js
+cd Reccomendation_System_from_scratch_dajango_vite_js 
+
+
+
+### Step 2: Create a Virtual Environment
+
+Create a virtual environment for the project by running the following command in your terminal:
+
+```bash
+python -m venv venv
+
+
+
+
