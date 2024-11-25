@@ -1,0 +1,292 @@
+
+
+
+/* search bar css */
+.suggestion-box {
+  border: 1px solid #ddd;
+  max-height: 250px;
+  overflow-y: auto;
+  position: absolute;
+  z-index: 1000;
+  width: 600px;
+  background: #fff;
+}
+.suggestion-box div {
+  padding: 10px;
+  cursor: pointer;
+}
+.suggestion-box div:hover {
+  background-color: #e9e9e9;
+}
+
+/* search bar css end  */
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height */
+}
+
+.content-section {
+  flex: 1; /* Makes the content section grow to fill space */
+}
+
+.footer {
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+
+.logo a{
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+  font-family: bold;
+}
+
+
+.search-bar input {
+  width: 600px;
+}
+
+.search-bar .form-control:focus{
+  box-shadow: none;
+}
+
+.form-control:focus{
+  box-shadow: none;
+}
+
+.nav-links a {
+  color: #000;
+  /* font-weight: bold; */
+}
+
+.cart-logo i {
+  font-size: 10px;
+}
+
+.cart-logo .cart-count{
+  font-size: 12px;
+}
+
+.logo h4{
+  font-weight: bold;
+}
+
+
+.footer-icon i{
+  font-size: 20px;
+}
+
+
+/* home page css */
+.hero-section {
+  background-color: #daecf3;
+  /* height: 25vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  border-radius: 5px;
+}
+.hero-btn {
+  background-color: black;
+  color: white; /* Primary blue button */
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+/* end home page css */
+
+/* card of products  */
+/* Showing the stars */
+ 
+ 
+ 
+.rate > input{
+  display: none;
+}
+
+.rate{
+  display: inline-block;;
+  border: 0;
+}
+
+.rate > label{
+  float: right;
+}
+
+.rate > label:before{
+  display: inline-block;
+  font-size: 1.1rem;
+  font-family: FontAwesome;
+  content: "\f005";
+  margin:0;
+  padding:0.3rem .2rem;
+  cursor: pointer;
+}
+
+/* Half star */
+.rate .half:before{
+  content: "\f089";
+  position: absolute;
+  padding-right: 0;
+}
+
+/* Click and hover */
+input:checked ~ label, label:hover ~ label{
+  color: #ffb503;
+}
+
+/* hover hightlight */
+input:checked + label:hover, input:checked ~ label:hover,input:checked ~ label:hover ~ label,
+label:hover ~ input:checked ~ label{
+  color: #cc9000;
+}
+
+.rating-star i{
+  color: #ffb503 !important;
+}
+
+ul.thumb{
+  margin:0 auto;
+  padding: 0;
+  float: left;
+}
+ul.thumb li{
+  list-style: none;
+  margin: 10px;
+}
+ul.thumb li img{
+  width: 80px;
+  height: 80px;
+  border: 1px solid grey;
+}
+
+
+
+.form-select {
+  box-shadow: none;
+}
+
+.form-select:focus {
+  box-shadow: none;
+  border: 1px solid black;
+}
+
+
+.form-select option:hover{
+  background-color: black;
+}
+
+
+.checked-star {
+  color: orange;
+}
+
+
+.price{
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+}
+
+
+
+/* ends range car filter range */
+/* end card */
+
+
+
+
+/* products-detail page start */
+.product-name{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-price{
+  font-size: 25px;
+  font-weight: 700;
+}
+.qty-input{
+  width: 50px;
+  border: black;
+  outline: none;
+}
+
+#product-main-img{
+  max-width:600px;
+  padding: 50px;
+  max-height: 600px;
+}
+
+/* products-detail page ends  */
+
+
+/* product card */
+.card-img-fixed {
+  height: 200px; /* Fixed height */
+  width: 100%; /* Full width */
+  object-fit: contain; /* Ensures the whole image fits, might leave empty space */
+  background-color: #f8f9fa; /* Optional: Light background to see empty space */
+}
+/* product card ends  */
+
+
+.name-rating{
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.review-count{
+  font-style: italic;
+  font-size: 15px;
+}
+
+
+
+/* cart img  */
+.cart-img{
+  width: 60px;
+  height: 60px;
+}
+
+.cross-cart i{
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* .cart-text{
+  font-size: 18px;
+  font-weight: 400;
+} */
+
+/* end cart img  */
+
+
+/* pagination  */
+
+
+/* .custom-pagination .page-link {
+  background-color: #333;
+  color: #fff;          
+  border: 1px solid #555; 
+} */
+
+.custom-pagination .page-link:hover {
+  background-color: #555; /* Slightly lighter on hover */
+  color: #fff;            /* White text */
+}
+
+.custom-pagination .active .page-link {
+  background-color: #333; /* Dark background */
+  color: #fff;           /* White text */
+  border: 1px solid #555;    /* Darker blue border */
+}

@@ -1,0 +1,38 @@
+    # def recommend_similar_products(self, top_n=4,user=None):
+        
+    #     # all_products = Product.objects.filter(category=self.category, is_available=True).exclude(id=self.id)
+    #     if user:
+    #         all_products = get_available_products_for_user(user,self.category).exclude(id=self.id)
+    #         print("if user login ----------------------------------->>>>>>>>>>>>>>>> ",all_products)
+    #     else:
+    #         all_products = Product.objects.filter(category=self.category, is_available=True).exclude(id=self.id)
+    #     if not all_products.exists():
+    #         all_products = Product.objects.filter(is_available=True).exclude(id=self.id)
+    #     product_descriptions = [
+    #         preprocessed(product.description) for product in all_products
+    #     ]
+    #     current_product_description = preprocessed(self.description)
+    #     tfidf_model = TfidfVectorAndCosine()
+    #     tfidf_model.fit([current_product_description] + product_descriptions)
+    #     current_product_vector = tfidf_model.transform(current_product_description)
+    #     other_product_vectors = [tfidf_model.transform(desc) for desc in product_descriptions]
+    #     similarity_scores = [
+    #         tfidf_model.cosine_similarity(current_product_vector, vector)
+    #         for vector in other_product_vectors
+    #     ]
+    #     print("similariry scores ",similarity_scores)
+
+    #     scored_products = list(zip(all_products, similarity_scores))
+    #     print("scored_products => ",scored_products)
+    #     scored_products = sorted(scored_products, key=lambda x: x[1], reverse=True)
+
+    #     similar_products = [product for product, score in scored_products[:4]]
+    #     print("similar_products",similar_products)
+    #     return similar_products
+
+
+
+                            // <div class="user-info mb-3 d-flex justify-content-between">
+                        //     <button class="btn btn-sm btn-dark" id="changePasswordBtn" onclick="changePasswordForm()">Change Password</button>
+                        //     <button class="btn btn-danger btn-sm" id="profileEditBtn" onclick="editProfileForm('${name}','${email}')">Edit Profile</button>
+                        // </div>
