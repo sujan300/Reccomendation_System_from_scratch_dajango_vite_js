@@ -42,7 +42,7 @@ Step 3: Make src inside
 ```
 step 4: Clone the repository to your local machine:
 ```
-    git clone https://github.com/sujan300Reccomendation_System_from_scratch_dajango_vite_js.gitcd Reccomendation_System_from_scratch_dajango_vite_js
+git clone https://github.com/sujan300Reccomendation_System_from_scratch_dajango_vite_js.gitcd Reccomendation_System_from_scratch_dajango_vite_js
 ```
 step 5: install requirements
 ```
