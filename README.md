@@ -9,7 +9,7 @@ A brief description of what this project does and who it's for
 This project implements a collaborative filtering recommendation system using Django for the backend and JavaScript (Vite.js) for the frontend.
 
 ## Features
-- Collaborative filtering for recommendations.
+- Content based filtering for recommendations.
 - User authentication and authorization.
 - API-based architecture.
 
